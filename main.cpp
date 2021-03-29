@@ -196,7 +196,7 @@ int main()
 	In the end, delete the Irrlicht device.
 	*/
 	//device->drop();
-  emscripten_set_main_loop(mainloop, 0, 0);
+  emscripten_set_main_loop(mainloop, 30, 0);
 	return 0;
 }
 
