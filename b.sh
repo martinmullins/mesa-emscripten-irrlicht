@@ -1,16 +1,9 @@
 em++ \
   -O3 \
-  --emrun \
   --preload-file ./media@/media \
   -s LLD_REPORT_UNDEFINED \
-  -s FULL_ES2=1 \
   -s DISABLE_EXCEPTION_CATCHING=0 \
-  -s SAFE_HEAP=0 \
-  -s SAFE_HEAP=0 \
   -s ALLOW_MEMORY_GROWTH=1 \
-  -s STACK_OVERFLOW_CHECK=2 \
-  -s ASSERTIONS=1 \
-  -s ERROR_ON_UNDEFINED_SYMBOLS=1 \
   -I/tmp/osmesa/include \
   -L/tmp/osmesa/lib \
   -I/home/marto/irrlicht/irr-osmesa/include \
